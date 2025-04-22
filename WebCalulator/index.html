@@ -1,0 +1,51 @@
+<html>
+<head>
+    <h1 style="text-align:center;">Hello World, this is Sebas Calculator</h1>
+</head> 
+<body>
+    <p>
+        <div style="text-align: center;">
+            <h3>Type the operation you desire, the following are the options:<br>1.- Sum<br>2.- Rest<br>3.- Divide<br>4.- Multiply</h3>
+            <form>
+                <label for = "operation"> Operation </label>
+                <input type="number" min= "1" max="9999999" id="operation" name="operation">
+                <button> Summit </button>
+            </form>
+            <form>
+                <label for = "value a"> First Digit: </label>
+                <input type="number" min= "1" max="9999999" id="value_a" name="value_a">
+                <button> Summit </button>
+            </form>
+            <form>
+                <label for = "value b"> Second Digit: </label>
+                <input type="number" min= "1" max="9999999" id="value_b" name="value_b">
+                <button> Summit </button>
+            </form>
+        </div>
+
+    </p>
+</body>
+</html>
+<script>
+    const operation = document.getElementById('operation');
+    switch (operation) {
+        case 1:
+            console.log("Sum is the operation to be executed")
+        case "2":
+            console.log("Rest is the operation to be executed")
+        case "3":
+            console.log("Divide is the operation to be executed")  
+        case "4":
+            console.log("Multiplation is the operation to be executed")        
+        }
+
+</script>
+
+
+
+<!---
+
+        <div style = "text-align: center;">
+        <button onclick="Improving"> Start Math World </button>
+        </div>
+    -->
